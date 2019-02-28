@@ -11,9 +11,9 @@
 		<jetty.version>9.4.12.v20180830</jetty.version>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<jackson.version>2.9.6</jackson.version>
-		<appengine.version>1.9.71</appengine.version>
-		<google-api-client.version>1.28.0</google-api-client.version>
-		<beam.version>2.10.0</beam.version>
+		<appengine.version>1.9.64</appengine.version>
+		<google-api-client.version>1.25.0</google-api-client.version>
+		<beam.version>2.7.0</beam.version>
 	</properties>
 
 	<build>
@@ -99,19 +99,19 @@
 		<dependency>
 			<groupId>com.google.auth</groupId>
 			<artifactId>google-auth-library-credentials</artifactId>
-			<version>0.13.0</version>
+			<version>0.11.0</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.google.auth</groupId>
 			<artifactId>google-auth-library-oauth2-http</artifactId>
-			<version>0.13.0</version>
+			<version>0.11.0</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.google.cloud</groupId>
 			<artifactId>google-cloud-bigquery</artifactId>
-			<version>1.62.0</version>
+			<version>1.44.0</version>
 		</dependency>
 
 		<dependency>
@@ -157,7 +157,7 @@
 		<dependency>
 			<groupId>com.google.cloud.bigtable</groupId>
 			<artifactId>bigtable-hbase-beam</artifactId>
-			<version>1.9.0</version>
+			<version>1.6.0</version>
 		</dependency>
 
 		<dependency>
